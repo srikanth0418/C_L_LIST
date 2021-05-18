@@ -1,3 +1,4 @@
+//*delete a the beging of the node*//
 #include<stdio.h>
 #include<stdlib.h>
 #include"linkedlist.h"
@@ -12,7 +13,7 @@ void delete_at_begin()
 	else
 	{
 		temp=head;
-		while(temp->next!=head)
+		while(temp->next!=head) //*travers to the last node to find the head node*//
 		{
 			temp=temp->next;
 		}
