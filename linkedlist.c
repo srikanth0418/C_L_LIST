@@ -1,7 +1,7 @@
 //*entering to the main function *//
 #include<stdio.h>
 #include<stdlib.h>
-#include"linkedlisth"
+#include"linkedlist.h"
 void main()
 {
       int choice;
