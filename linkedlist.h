@@ -1,5 +1,6 @@
+//*header file*//
 #ifndef HEADER_H
-#define HEADER-H
+#define HEADER_H
 int len_gth;
 struct node
 {
