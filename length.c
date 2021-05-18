@@ -1,3 +1,4 @@
+//*finding the length of the list *//
 #include<stdio.h>
 #include"linkdelist.h"
 #include<stdlib.h>
@@ -18,6 +19,6 @@ int length()
 			count++;
 		}
 	}
-	return count;
+	return count;  //*return to the count=len_gth *//
 }
 
