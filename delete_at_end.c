@@ -1,3 +1,4 @@
+//*delete a node at the end of the node *//
 #include<stdio.h>
 #include<stdlib.h>
 #include"linkedlist.h"
@@ -8,10 +9,10 @@ void delete_at_end()
 	{
 		printf("given node is empty\n");
 	}
-	else if(head->next!=head)
+	else if(head->next!=head) 
 	{
 		temp=head;
-		while(temp->next!=head)
+		while(temp->next!=head)   //*traverse to untill the last node*//
 		{
 			temp1=temp;
 			temp=temp->next;
@@ -21,10 +22,10 @@ void delete_at_end()
 
 	}
 	else
-    {
+        {
         head=NULL;
         free(head);
-    }
+        }
 
 
 }
