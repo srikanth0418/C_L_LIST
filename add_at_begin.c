@@ -1,23 +1,25 @@
+//*adding at begining of the node function*//
 #include<stdio.h>
 #include<stdlib.h>
 #include"linkedlist.h"
 void add_at_begin()
 {
 	int num1;
-    extern struct node *head,*temp,*temp1;
+        extern struct node *head,*temp,*temp1;
 	temp=(struct node*)malloc(sizeof(struct node));
 	printf("enter the data:");
-	scanf("%d",&num1);
+	scanf("%d",&num1);   //*enter the storing data*//
 	temp->data=num1;
 	if(head==NULL)
 	{
+		//*if head is equal to null then the new node is initialized*//
 		head=temp;
 		temp->next=head;
 	}
 	else
 	{
 		temp1=head;
-		while(temp->next!=head)
+		while(temp1->next!=head)  //*travers untill last node*//
 		{
 			temp1=temp1->next;
 		}
