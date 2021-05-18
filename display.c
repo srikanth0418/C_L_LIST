@@ -1,3 +1,4 @@
+//*given function is loop throgh the all the nodes *//
 #include<stdio.h>
 #include<stdlib.h>
 #include"linkedlist.h"
