@@ -1,3 +1,4 @@
+//*delete a node at any location *//
 #include<stdio.h>
 #include<stdlib.h>
 #include"linkedlist.h"
@@ -7,8 +8,8 @@ void delete_at_any()
 	int location,i=1;
 	extern int len_gth;
 	printf("enter the location:\n");
-	scanf("%d",&location);
-	num2=length();
+	scanf("%d",&location);   //*enter the specified location for deleting a node *//
+	len_gth=length();      //*finding the length *//
 	if(head=NULL)
 	{
 		printf("given blist is empty\n");
@@ -17,10 +18,10 @@ void delete_at_any()
 	{
 		delete_at_begin();
 	}
-	else if(location<len_gth-1)
+	else if(location<len_gth-1)   //if location is more then length then condition is false//
 	{
 		temp=head;
-		while(i<location)
+		while(i<location)   //*traverse to the location where we want to delete a node //
 		{
 			temp1=temp;
 			temp=temp->next;
