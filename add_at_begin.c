@@ -4,8 +4,8 @@
 #include"linkedlist.h"
 void add_at_begin()
 {
-	int num1;
-        extern struct node *head,*temp,*temp1;
+	uint32_t num1;
+        extern l_list *head,*temp,*temp1;
 	temp=(struct node*)malloc(sizeof(struct node));
 	printf("enter the data:");
 	scanf("%d",&num1);   //*enter the storing data*//
