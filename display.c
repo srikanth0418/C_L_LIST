@@ -4,8 +4,8 @@
 #include"linkedlist.h"
 void display()
 {
-    extern struct node *head;
-	extern struct node *temp;
+    extern l_list *head;
+	extern l_list *temp;
 	temp=head;
 	if(head==NULL)
 	{
