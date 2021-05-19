@@ -4,8 +4,8 @@
 #include"linkedlist.h"
 void delete_at_begin()
 {
-   extern struct node *head;
-	 extern struct node *temp;
+   extern l_list *head;
+	 extern l_list *temp;
 	if(head==NULL)
 	{
 		printf("given node is empty\n");
