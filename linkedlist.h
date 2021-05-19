@@ -2,7 +2,7 @@
 #ifndef HEADER_H
 #define HEADER_H
 uint32_t len_gth;
-uint32_t count;;
+uint32_t count;
 struct node
 {
     int data;
