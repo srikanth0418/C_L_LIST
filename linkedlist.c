@@ -4,7 +4,7 @@
 #include"linkedlist.h"
 void main()
 {
-      extern uint32_t choice;
+      uint32_t choice;
       extern uint32_t len_gth;
 	  while(1) //*infinite loop*//
 	  {
