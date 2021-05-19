@@ -4,9 +4,9 @@
 #include"linkedlist.h"
 void delete_at_any()
 {
-	extern struct node *head,*temp,*temp1;
-	int location,i=1;
-	extern int len_gth;
+	extern l_list *head,*temp,*temp1;
+	uint32_t location,i=1;
+	extern uint32_t len_gth;
 	printf("enter the location:\n");
 	scanf("%d",&location);   //*enter the specified location for deleting a node *//
 	len_gth=length();      //*finding the length *//
