@@ -2,10 +2,10 @@
 #include<stdio.h>
 #include"linkdelist.h"
 #include<stdlib.h>
-int length()
+uint32_t length()
 {
-	extern struct node *head,*temp;
-	int count=1;
+	extern l_list *head,*temp;
+	extern uint32_t count=0;
 	if(head==NULL)
 	{
 		printf("given nodes are empty\n");
