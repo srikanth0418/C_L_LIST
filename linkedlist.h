@@ -5,7 +5,7 @@ uint32_t len_gth;
 uint32_t count;
 struct node
 {
-    int data;
+    uint32_t data;
     struct node *next;
 }; 
 typedef struct node l_list;
