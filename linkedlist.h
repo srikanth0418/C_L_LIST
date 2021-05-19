@@ -3,11 +3,12 @@
 #define HEADER_H
 uint32_t len_gth;
 uint32_t count;;
-typedef struct node
+struct node
 {
     int data;
     struct node *next;
-}l_list; 
+}; 
+typedef struct node l_list;
 l_list *head,*temp,*temp1;
 #include<stdlib.h>
 void add_at_begin();
