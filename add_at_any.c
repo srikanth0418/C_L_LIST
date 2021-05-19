@@ -3,9 +3,9 @@
 #include"linkedlist.h"
 void add_at_any()
 {
-	 extern struct node *head,*temp,*temp1;
-	int i=0,location,num1;
-	extern int len_gth;
+	extern l_list *head,*temp,*temp1;
+	uint32_t i=0,location,num1;
+	extern uint32_t len_gth;
 	printf("enter the location:\n");
 	scanf("%d",&location);
 	len_gth=length();
