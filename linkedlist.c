@@ -4,8 +4,8 @@
 #include"linkedlist.h"
 void main()
 {
-      int choice;
-      extern int len_gth;
+      extern uint32_t choice;
+      extern uint32_t len_gth;
 	  while(1) //*infinite loop*//
 	  {
 	  printf("1:add_at_begin:\n2:add_at_end:\n3:display:\n4:delete_at_begin:\n5:delete_att_end:\n6:delete_at_any:\n7:length:\n8:add_at_any:\n");
